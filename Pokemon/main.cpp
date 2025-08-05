@@ -5,6 +5,7 @@ int main() {
 
     string player_name;
     int pok_choice_number;
+    string chosen_pokemon;
 
     cout << "Professor Oak: Trainer! Before you embark on your journey \n the Pokémon wolrd need to know who you are!";
     cout << "Time to step up and tell us your name." << endl;
@@ -21,19 +22,25 @@ int main() {
 
     switch(pok_choice_number) {
         case 1:
+            chosen_pokemon = "Bulbasaur";
             cout << "You chose Bulbasaur! A great choice for a beginner!" << endl;
             break;
         case 2:
+            chosen_pokemon = "Charmander";
             cout << "You chose Charmander! A fiery companion to start your journey!" << endl;
             break;
         case 3:
+            chosen_pokemon = "Squirtle";
             cout << "You chose Squirtle! A cool choice for your adventure!" << endl;
             break;
         default:
-            cout << "Invalid choice! Please choose a number between 1 and 3." << endl;
-            return 1; // Exit if invalid choice
+            cout << "Professor Oak: Hmm, i think you're too electrized choosing the wrong number" << endl;
+            cout << "So, let's go with Pikachu!" << endl;
+            chosen_pokemon = "Pikachu";
+            break;
 	}
 
+	cout << "Professor Oak: Now that you have your first Pokémon, you're ready to start your journey!" << endl;
 
 
     return 0;
