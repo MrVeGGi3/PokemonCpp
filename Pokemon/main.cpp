@@ -5,7 +5,16 @@ int main() {
 
     string player_name;
     int pok_choice_number;
-    string chosen_pokemon;
+
+    enum PokemonChoice
+    {
+        Bulbasaur,
+        Charmander,
+	    Squirtle,
+        InvalidChoice
+    };
+
+    PokemonChoice chosen_pokemon;
 
     cout << "Professor Oak: Trainer! Before you embark on your journey \n the Pokémon wolrd need to know who you are!";
     cout << "Time to step up and tell us your name." << endl;
@@ -22,23 +31,36 @@ int main() {
 
     switch(pok_choice_number) {
         case 1:
-            chosen_pokemon = "Bulbasaur";
+            chosen_pokemon = Bulbasaur;
             cout << "You chose Bulbasaur! A great choice for a beginner!" << endl;
             break;
         case 2:
-            chosen_pokemon = "Charmander";
+			chosen_pokemon = Charmander;
             cout << "You chose Charmander! A fiery companion to start your journey!" << endl;
             break;
         case 3:
-            chosen_pokemon = "Squirtle";
+			chosen_pokemon = Squirtle;
             cout << "You chose Squirtle! A cool choice for your adventure!" << endl;
             break;
         default:
-            cout << "Professor Oak: Hmm, i think you're too electrized choosing the wrong number" << endl;
-            cout << "So, let's go with Pikachu!" << endl;
-            chosen_pokemon = "Pikachu";
+            chosen_pokemon = Charmander;
             break;
 	}
+
+    switch (chosen_pokemon)
+    {
+        case Bulbasaur:
+            cout << "Bulbasaur - The grass type. Calm and collected!" << endl;
+			break;
+
+        case Charmander:
+			cout <<  "Charmander - The fire type. A real hothead!" << endl;
+            break;
+	    
+        case Squirtle:
+            cout << "Squirtle - The water type. Cool as a cucumber!" << endl;
+            break;
+    }
 
 	cout << "Professor Oak: Now that you have your first Pokémon, you're ready to start your journey!" << endl;
 
