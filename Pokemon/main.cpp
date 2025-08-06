@@ -6,13 +6,23 @@ int main() {
     string player_name;
     int pok_choice_number;
 
-    enum PokemonChoice
+    enum class PokemonChoice
     {
         Bulbasaur,
         Charmander,
 	    Squirtle,
         InvalidChoice
     };
+
+    enum class PokemonType
+    {
+        Grass,
+        Fire,
+        Water,
+        Electric, 
+        Earth,
+        Normal
+	};
 
     PokemonChoice chosen_pokemon;
 
@@ -31,19 +41,19 @@ int main() {
 
     switch(pok_choice_number) {
         case 1:
-            chosen_pokemon = Bulbasaur;
+            chosen_pokemon = PokemonChoice::Bulbasaur;
             cout << "You chose Bulbasaur! A great choice for a beginner!" << endl;
             break;
         case 2:
-			chosen_pokemon = Charmander;
+			chosen_pokemon = PokemonChoice::Charmander;
             cout << "You chose Charmander! A fiery companion to start your journey!" << endl;
             break;
         case 3:
-			chosen_pokemon = Squirtle;
+			chosen_pokemon = PokemonChoice::Squirtle;
             cout << "You chose Squirtle! A cool choice for your adventure!" << endl;
             break;
         default:
-            chosen_pokemon = Charmander;
+            chosen_pokemon = PokemonChoice::Charmander;
             break;
 	}
 
