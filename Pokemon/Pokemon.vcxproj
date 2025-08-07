@@ -154,6 +154,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Player.hpp" />
     <ClCompile Include="PokemonChoice.hpp" />
     <ClCompile Include="PokemonType.hpp" />
     <ClCompile Include="main.cpp" />
