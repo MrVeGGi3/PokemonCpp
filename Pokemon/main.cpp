@@ -29,7 +29,9 @@ class Pokemon
 
     Pokemon()
     {
-
+        name = "Pikachu";
+        type = PokemonType::ELECTRIC;
+        health = 40;
     }
 
     Pokemon(string p_name, PokemonType p_type, int p_health)
@@ -39,6 +41,22 @@ class Pokemon
         health = p_health;
     }
 
+    Pokemon(const Pokemon& other)
+    {
+        name = other.name;
+        type = other.type;
+        health = other.health;
+
+        cout << "A New Pokemon has copied from " << other.name << "!" << endl;
+    }
+
+    ~Pokemon()
+    {
+        cout << "Pokemon " << name << " has been destroyed!" << endl;
+	}
+
+	
+
     void attack() { cout << name << "attacks with powerful move!" << endl; };
 };
 
@@ -47,6 +65,24 @@ class Player
     public:
         string name;
         Pokemon choosen_pokemon;
+
+        Player()
+        {
+            name = "Trainer";
+            choosen_pokemon = Pokemon();
+        }
+
+        Player(string p_name, Pokemon p_choosen_pokemon)
+        {
+            name = p_name;
+            choosen_pokemon = p_choosen_pokemon;
+        }
+
+        Player(const Player& other)
+        {
+            name = other.name;
+            choosen_pokemon = other.choosen_pokemon;
+        }
 
     void ChoosePokemon(int choice)
     {
@@ -107,22 +143,16 @@ class ProfessorOak
 
 int main() 
 {
-    ProfessorOak professor;
-    Player player;
-    Pokemon placeholder_pokemon;
+	Pokemon Bulbasaur("Bulbasaur", PokemonType::GRASS, 100);
+    Pokemon BulbasaurCopy = Bulbasaur;
 
-    player.name = "Trainer";
-    professor.name = "Professor Oak";
+    Player player = Player("Ash", Bulbasaur);
+    Player playerCopy = player; 
 
-    placeholder_pokemon.name = "Pikachu";
-    placeholder_pokemon.type = PokemonType::ELECTRIC;
-    placeholder_pokemon.health = 40;
+    cout << "Original Pokemon: " << Bulbasaur.name << endl;
+    cout << "Copied Pokemon: " << BulbasaurCopy.name << endl;
 
-    professor.greetPlayer(player);
-    professor.offerPokemonChoices(player);
+    cout << "Original Player Name: " << player.name << endl;
+    cout << "Copied Player Name: " << playerCopy.name << endl;
 
-    cout << "Professor Oak: " << player.choosen_pokemon.name << " and you, " << player.name << ", are going to be the best of friends!\n";
-    cout << "Professor Oak: Your journey begins now! Get ready to explore the vast world of Pokemon!\n";
-
-    return 0;
 }
