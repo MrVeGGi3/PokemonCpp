@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|D:\\GameProjects\\C\u002B\u002B\\PokemonCpp\\Pokemon\\PokemonChoice.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:PokemonChoice.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|D:\\GameProjects\\C\u002B\u002B\\PokemonCpp\\Pokemon\\PokemonType.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:PokemonType.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|D:\\GameProjects\\C\u002B\u002B\\PokemonCpp\\Pokemon\\header.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:header.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -18,11 +26,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "PokemonChoice.hpp",
+              "DocumentMoniker": "D:\\GameProjects\\C\u002B\u002B\\PokemonCpp\\Pokemon\\PokemonChoice.hpp",
+              "RelativeDocumentMoniker": "PokemonChoice.hpp",
+              "ToolTip": "D:\\GameProjects\\C\u002B\u002B\\PokemonCpp\\Pokemon\\PokemonChoice.hpp",
+              "RelativeToolTip": "PokemonChoice.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-08-07T21:57:06.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PokemonType.hpp",
+              "DocumentMoniker": "D:\\GameProjects\\C\u002B\u002B\\PokemonCpp\\Pokemon\\PokemonType.hpp",
+              "RelativeDocumentMoniker": "PokemonType.hpp",
+              "ToolTip": "D:\\GameProjects\\C\u002B\u002B\\PokemonCpp\\Pokemon\\PokemonType.hpp",
+              "RelativeToolTip": "PokemonType.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-08-07T21:55:44.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "header.hpp",
               "DocumentMoniker": "D:\\GameProjects\\C\u002B\u002B\\PokemonCpp\\Pokemon\\header.hpp",
               "RelativeDocumentMoniker": "header.hpp",
@@ -39,9 +73,9 @@
               "Title": "main.cpp",
               "DocumentMoniker": "D:\\GameProjects\\C\u002B\u002B\\PokemonCpp\\Pokemon\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "D:\\GameProjects\\C\u002B\u002B\\PokemonCpp\\Pokemon\\main.cpp*",
-              "RelativeToolTip": "main.cpp*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "ToolTip": "D:\\GameProjects\\C\u002B\u002B\\PokemonCpp\\Pokemon\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMkAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-08-07T21:37:16.001Z",
               "EditorCaption": ""
