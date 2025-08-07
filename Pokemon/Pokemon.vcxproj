@@ -157,6 +157,8 @@
     <ClCompile Include="PokemonChoice.hpp" />
     <ClCompile Include="PokemonType.hpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Utility.cpp" />
+    <ClCompile Include="Utility.hpp" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".idea\.idea.Pokemon\.idea\indexLayout.xml" />

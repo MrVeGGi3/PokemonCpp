@@ -1,1 +1,1 @@
-﻿  Pokemon.vcxproj -> D:\GameProjects\C++\PokemonCpp\Pokemon\x64\Debug\Pokemon.exe
+﻿LINK : fatal error LNK1168: não foi possível abrir D:\GameProjects\C++\PokemonCpp\Pokemon\x64\Debug\Pokemon.exe para escrita
