@@ -1,6 +1,7 @@
 #include <iostream>
+using namespace std;
 
 int main() {
-
-    return 0;
+    cout << "file inclued" << endl;
+    #include "header.hpp";
 }
