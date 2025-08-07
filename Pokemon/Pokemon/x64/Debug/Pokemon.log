@@ -1,0 +1,14 @@
+﻿  main.cpp
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(8,1): warning C4067: tokens inesperados após diretiva de pré-processador - esperado um newline
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(31,27): error C2061: erro de sintaxe: identificador 'Player'
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(33,35): error C2065: 'player': identificador não declarado
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(39,198): error C2065: 'player': identificador não declarado
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(42,60): error C2065: 'player': identificador não declarado
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(47,132): error C2065: 'player': identificador não declarado
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(51,136): error C2065: 'player': identificador não declarado
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(77,15): error C2660: 'Professor::explainMainQuest': função não recebe 1 argumentos
+      D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(31,10):
+      consulte a declaração de 'Professor::explainMainQuest'
+      D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(77,15):
+      ao tentar corresponder a lista de argumentos '(Player)'
+  
