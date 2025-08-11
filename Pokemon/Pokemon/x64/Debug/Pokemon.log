@@ -1,1 +1,170 @@
-﻿LINK : fatal error LNK1168: não foi possível abrir D:\GameProjects\C++\PokemonCpp\Pokemon\x64\Debug\Pokemon.exe para escrita
+﻿  Player.cpp
+  Player.hpp
+D:\GameProjects\C++\PokemonCpp\Pokemon\Player.hpp(14,13): error C3646: 'chosenPokemon': especificador de substituição desconhecido
+  (compilando o arquivo fonte 'Player.cpp')
+  
+D:\GameProjects\C++\PokemonCpp\Pokemon\Player.hpp(14,5): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+  (compilando o arquivo fonte 'Player.cpp')
+  
+D:\GameProjects\C++\PokemonCpp\Pokemon\Player.hpp(18,27): error C2061: erro de sintaxe: identificador 'Pokemon'
+  (compilando o arquivo fonte 'Player.cpp')
+  
+D:\GameProjects\C++\PokemonCpp\Pokemon\Player.cpp(8,2): error C2065: 'chosenPokemon': identificador não declarado
+D:\GameProjects\C++\PokemonCpp\Pokemon\Player.cpp(8,18): error C3861: 'Pokemon': identificador não encontrado
+D:\GameProjects\C++\PokemonCpp\Pokemon\Player.cpp(11,9): error C2511: 'Player::Player(std::string,PokemonChoice)': função membro sobrecarregada não encontrada em 'Player'
+      D:\GameProjects\C++\PokemonCpp\Pokemon\Player.hpp(11,7):
+      consulte a declaração de 'Player'
+  
+D:\GameProjects\C++\PokemonCpp\Pokemon\Player.cpp(13,2): error C2597: referência inválida para membro não static 'Player::name'
+      D:\GameProjects\C++\PokemonCpp\Pokemon\Player.hpp(13,12):
+      consulte a declaração de 'Player::name'
+  
+D:\GameProjects\C++\PokemonCpp\Pokemon\Player.cpp(21,9): error C2065: 'chosenPokemon': identificador não declarado
+D:\GameProjects\C++\PokemonCpp\Pokemon\Player.cpp(21,25): error C3861: 'Pokemon': identificador não encontrado
+D:\GameProjects\C++\PokemonCpp\Pokemon\Player.cpp(24,9): error C2065: 'chosenPokemon': identificador não declarado
+D:\GameProjects\C++\PokemonCpp\Pokemon\Player.cpp(24,25): error C3861: 'Pokemon': identificador não encontrado
+D:\GameProjects\C++\PokemonCpp\Pokemon\Player.cpp(27,9): error C2065: 'chosenPokemon': identificador não declarado
+D:\GameProjects\C++\PokemonCpp\Pokemon\Player.cpp(27,25): error C3861: 'Pokemon': identificador não encontrado
+D:\GameProjects\C++\PokemonCpp\Pokemon\Player.cpp(30,9): error C2065: 'chosenPokemon': identificador não declarado
+D:\GameProjects\C++\PokemonCpp\Pokemon\Player.cpp(30,25): error C3861: 'Pokemon': identificador não encontrado
+D:\GameProjects\C++\PokemonCpp\Pokemon\Player.cpp(33,47): error C2065: 'chosenPokemon': identificador não declarado
+D:\GameProjects\C++\PokemonCpp\Pokemon\Player.hpp(14,13): error C3646: 'chosenPokemon': especificador de substituição desconhecido
+D:\GameProjects\C++\PokemonCpp\Pokemon\Player.hpp(14,5): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+D:\GameProjects\C++\PokemonCpp\Pokemon\Player.hpp(18,27): error C2061: erro de sintaxe: identificador 'Pokemon'
+  main.cpp
+D:\GameProjects\C++\PokemonCpp\Pokemon\Utility.hpp(1,7): error C2011: 'Utility': redefinição do tipo 'class'
+  (compilando o arquivo fonte 'main.cpp')
+      D:\GameProjects\C++\PokemonCpp\Pokemon\Utility.hpp(1,7):
+      consulte a declaração de 'Utility'
+  
+D:\GameProjects\C++\PokemonCpp\Pokemon\PokemonChoice.hpp(1,12): error C2011: 'PokemonChoice': redefinição do tipo 'enum'
+  (compilando o arquivo fonte 'main.cpp')
+      D:\GameProjects\C++\PokemonCpp\Pokemon\PokemonChoice.hpp(1,12):
+      consulte a declaração de 'PokemonChoice'
+  
+D:\GameProjects\C++\PokemonCpp\Pokemon\PokemonType.hpp(1,12): error C2011: 'PokemonType': redefinição do tipo 'enum'
+  (compilando o arquivo fonte 'main.cpp')
+      D:\GameProjects\C++\PokemonCpp\Pokemon\PokemonType.hpp(1,12):
+      consulte a declaração de 'PokemonType'
+  
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(55,18): error C2027: uso de tipo indefinido 'Utility'
+      D:\GameProjects\C++\PokemonCpp\Pokemon\Utility.hpp(1,7):
+      consulte a declaração de 'Utility'
+  
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(55,18): error C3861: 'waitForEnter': identificador não encontrado
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(58,18): error C2027: uso de tipo indefinido 'Utility'
+      D:\GameProjects\C++\PokemonCpp\Pokemon\Utility.hpp(1,7):
+      consulte a declaração de 'Utility'
+  
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(58,18): error C3861: 'waitForEnter': identificador não encontrado
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(60,18): error C2027: uso de tipo indefinido 'Utility'
+      D:\GameProjects\C++\PokemonCpp\Pokemon\Utility.hpp(1,7):
+      consulte a declaração de 'Utility'
+  
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(60,18): error C3861: 'waitForEnter': identificador não encontrado
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(70,18): error C2027: uso de tipo indefinido 'Utility'
+      D:\GameProjects\C++\PokemonCpp\Pokemon\Utility.hpp(1,7):
+      consulte a declaração de 'Utility'
+  
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(70,18): error C3861: 'waitForEnter': identificador não encontrado
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(74,18): error C2027: uso de tipo indefinido 'Utility'
+      D:\GameProjects\C++\PokemonCpp\Pokemon\Utility.hpp(1,7):
+      consulte a declaração de 'Utility'
+  
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(74,18): error C3861: 'waitForEnter': identificador não encontrado
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(80,18): error C2027: uso de tipo indefinido 'Utility'
+      D:\GameProjects\C++\PokemonCpp\Pokemon\Utility.hpp(1,7):
+      consulte a declaração de 'Utility'
+  
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(80,18): error C3861: 'waitForEnter': identificador não encontrado
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(93,18): error C2027: uso de tipo indefinido 'Utility'
+      D:\GameProjects\C++\PokemonCpp\Pokemon\Utility.hpp(1,7):
+      consulte a declaração de 'Utility'
+  
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(93,18): error C3861: 'waitForEnter': identificador não encontrado
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(99,18): error C2027: uso de tipo indefinido 'Utility'
+      D:\GameProjects\C++\PokemonCpp\Pokemon\Utility.hpp(1,7):
+      consulte a declaração de 'Utility'
+  
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(99,18): error C3861: 'clearConsole': identificador não encontrado
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(104,18): error C2027: uso de tipo indefinido 'Utility'
+      D:\GameProjects\C++\PokemonCpp\Pokemon\Utility.hpp(1,7):
+      consulte a declaração de 'Utility'
+  
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(104,18): error C3861: 'waitForEnter': identificador não encontrado
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(107,18): error C2027: uso de tipo indefinido 'Utility'
+      D:\GameProjects\C++\PokemonCpp\Pokemon\Utility.hpp(1,7):
+      consulte a declaração de 'Utility'
+  
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(107,18): error C3861: 'waitForEnter': identificador não encontrado
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(112,18): error C2027: uso de tipo indefinido 'Utility'
+      D:\GameProjects\C++\PokemonCpp\Pokemon\Utility.hpp(1,7):
+      consulte a declaração de 'Utility'
+  
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(112,18): error C3861: 'waitForEnter': identificador não encontrado
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(118,18): error C2027: uso de tipo indefinido 'Utility'
+      D:\GameProjects\C++\PokemonCpp\Pokemon\Utility.hpp(1,7):
+      consulte a declaração de 'Utility'
+  
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(118,18): error C3861: 'waitForEnter': identificador não encontrado
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(121,18): error C2027: uso de tipo indefinido 'Utility'
+      D:\GameProjects\C++\PokemonCpp\Pokemon\Utility.hpp(1,7):
+      consulte a declaração de 'Utility'
+  
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(121,18): error C3861: 'waitForEnter': identificador não encontrado
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(126,18): error C2027: uso de tipo indefinido 'Utility'
+      D:\GameProjects\C++\PokemonCpp\Pokemon\Utility.hpp(1,7):
+      consulte a declaração de 'Utility'
+  
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(126,18): error C3861: 'waitForEnter': identificador não encontrado
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(130,18): error C2027: uso de tipo indefinido 'Utility'
+      D:\GameProjects\C++\PokemonCpp\Pokemon\Utility.hpp(1,7):
+      consulte a declaração de 'Utility'
+  
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(130,18): error C3861: 'waitForEnter': identificador não encontrado
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(134,18): error C2027: uso de tipo indefinido 'Utility'
+      D:\GameProjects\C++\PokemonCpp\Pokemon\Utility.hpp(1,7):
+      consulte a declaração de 'Utility'
+  
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(134,18): error C3861: 'waitForEnter': identificador não encontrado
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(139,18): error C2027: uso de tipo indefinido 'Utility'
+      D:\GameProjects\C++\PokemonCpp\Pokemon\Utility.hpp(1,7):
+      consulte a declaração de 'Utility'
+  
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(139,18): error C3861: 'waitForEnter': identificador não encontrado
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(143,18): error C2027: uso de tipo indefinido 'Utility'
+      D:\GameProjects\C++\PokemonCpp\Pokemon\Utility.hpp(1,7):
+      consulte a declaração de 'Utility'
+  
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(143,18): error C3861: 'waitForEnter': identificador não encontrado
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(145,18): error C2027: uso de tipo indefinido 'Utility'
+      D:\GameProjects\C++\PokemonCpp\Pokemon\Utility.hpp(1,7):
+      consulte a declaração de 'Utility'
+  
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(145,18): error C3861: 'waitForEnter': identificador não encontrado
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(149,18): error C2027: uso de tipo indefinido 'Utility'
+      D:\GameProjects\C++\PokemonCpp\Pokemon\Utility.hpp(1,7):
+      consulte a declaração de 'Utility'
+  
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(149,18): error C3861: 'waitForEnter': identificador não encontrado
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(152,18): error C2027: uso de tipo indefinido 'Utility'
+      D:\GameProjects\C++\PokemonCpp\Pokemon\Utility.hpp(1,7):
+      consulte a declaração de 'Utility'
+  
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(152,18): error C3861: 'waitForEnter': identificador não encontrado
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(161,18): error C2027: uso de tipo indefinido 'Utility'
+      D:\GameProjects\C++\PokemonCpp\Pokemon\Utility.hpp(1,7):
+      consulte a declaração de 'Utility'
+  
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(161,18): error C3861: 'clearConsole': identificador não encontrado
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(209,18): error C2027: uso de tipo indefinido 'Utility'
+      D:\GameProjects\C++\PokemonCpp\Pokemon\Utility.hpp(1,7):
+      consulte a declaração de 'Utility'
+  
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(209,18): error C3861: 'waitForEnter': identificador não encontrado
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(217,51): error C2027: uso de tipo indefinido 'PokemonType'
+      D:\GameProjects\C++\PokemonCpp\Pokemon\PokemonType.hpp(1,12):
+      consulte a declaração de 'PokemonType'
+  
+D:\GameProjects\C++\PokemonCpp\Pokemon\main.cpp(217,51): error C2065: 'FIRE': identificador não declarado
+  Gerando Código...
