@@ -1,10 +1,4 @@
 #include <string>
-#include "Utility.hpp"
-#include "PokemonChoice.hpp"
-#include "PokemonType.hpp"
-#include <limits>
-#include <iostream>
-#include <string>
 
 using namespace std;
 
